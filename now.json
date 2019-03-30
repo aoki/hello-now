@@ -1,9 +1,12 @@
 {
   "version": 2,
+  "alias": "now.aoki.dev",
+  "routes": [
+    { "src": "/repo", "dest": "https://github.com/ringohub/hello-now" }
+  ],
   "builds": [
     { "src": "*.js", "use": "@now/node" },
     { "src": "*.html", "use": "@now/static" },
-    { "src": "*.css", "use": "@now/static" },
-    { "src": "/repo", "dest": "https://github.com/ringohub/hello-now" }
+    { "src": "*.css", "use": "@now/static" }
   ]
 }
