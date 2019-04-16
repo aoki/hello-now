@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "now",
+    "deploy": "now --target production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ringohub/hello-now.git"
+    "url": "git+ssh://git@github.com/aoki/hello-now.git"
   },
   "author": "aoki <ringohub@gmail.com> (https://github.com/ringohub)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ringohub/hello-now/issues"
+    "url": "https://github.com/aoki/hello-now/issues"
   },
-  "homepage": "https://github.com/ringohub/hello-now#readme"
+  "homepage": "https://github.com/aoki/hello-now#readme"
 }
