@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aoki/hello-now/issues"
   },
-  "homepage": "https://github.com/aoki/hello-now#readme"
+  "homepage": "https://github.com/aoki/hello-now#readme",
+  "devDependencies": {
+    "now": "15.0.4"
+  }
 }
